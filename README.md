@@ -28,7 +28,21 @@ A Windows desktop application that connects your MCP (Model Context Protocol) se
 1. The app will prompt for your OpenAI API key (if not in `.env`)
 2. Enter your MCP server command (default: `python wifi_diagnostics_mcp.py`)
 3. Wait for "🎉 Ready!" status
-4. Start chatting with ChatGPT - it can now use your MCP tools!
+4. **Try the demo:** Open `wifi_diagnostic_prompt.md`, copy all content, and paste into chat
+5. Watch ChatGPT automatically run all 6 WiFi diagnostic tools and provide analysis!
+
+### 🎯 Quick Demo
+For an impressive first experience:
+1. Copy the entire content from `wifi_diagnostic_prompt.md`
+2. Paste it into the chat interface  
+3. ChatGPT will systematically run through all diagnostic tools:
+   - Check WiFi adapter status
+   - Test network connectivity
+   - Analyze authentication issues
+   - Assess WiFi environment and signals
+   - Generate comprehensive diagnostic report
+   - Offer to fix common issues automatically
+4. Get a detailed WiFi analysis with actionable recommendations
 
 ## 📁 Files Overview
 
@@ -43,8 +57,8 @@ A Windows desktop application that connects your MCP (Model Context Protocol) se
 
 ## 🎯 Example Use Cases
 
-### WiFi Troubleshooting
-Paste the content from `wifi_diagnostic_prompt.md` to get ChatGPT to run a complete WiFi diagnostic using your MCP tools.
+### WiFi Troubleshooting Demo
+Copy and paste the content from `wifi_diagnostic_prompt.md` to trigger a complete WiFi diagnostic workflow. ChatGPT will systematically execute all 6 diagnostic tools and provide comprehensive analysis with actionable recommendations.
 
 ### Custom Tools
 Replace `wifi_diagnostics_mcp.py` with your own MCP server to give ChatGPT access to your custom tools and APIs.
@@ -87,11 +101,13 @@ The included WiFi diagnostics server provides 6 tools that ChatGPT can use:
 - `generate_diagnostic_report` - Create comprehensive report
 - `fix_common_issues` - Attempt automatic repairs
 
-Ask ChatGPT: *\"Can you check my WiFi status and diagnose any issues?\"*
+**Quick Test:** Ask ChatGPT: *"Can you check my WiFi status and diagnose any issues?"*
+
+**Full Demo:** Copy and paste the entire content from `wifi_diagnostic_prompt.md` for a comprehensive diagnostic experience!
 
 ## 💡 Next Steps
 
-1. **Try the WiFi diagnostics** - Use the included prompt for full testing
+1. **Try the WiFi diagnostics** - Copy/paste content from `wifi_diagnostic_prompt.md` for full demo
 2. **Create your own MCP server** - Replace with tools for your use case
 3. **Customize the client** - Modify the GUI or add features
 4. **Share your tools** - Let ChatGPT use your APIs and automations
