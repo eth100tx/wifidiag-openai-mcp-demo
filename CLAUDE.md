@@ -31,6 +31,19 @@ python simple_mcp_test.py            # Interactive MCP connection testing
 start.bat                           # Automated setup and launch (Windows)
 ```
 
+### First Run Demo
+After the application starts and shows "🎉 Ready!" status:
+1. Open `wifi_diagnostic_prompt.md` and copy its entire content
+2. Paste it into the chat interface
+3. This triggers ChatGPT to run a comprehensive WiFi diagnostic using all 6 MCP tools:
+   - `check_wifi_status` - WiFi adapter and connection status
+   - `diagnose_connection_issues` - Network connectivity tests  
+   - `check_authentication_issues` - Authentication and certificate analysis
+   - `analyze_wifi_environment` - Signal strength and interference
+   - `generate_diagnostic_report` - Complete diagnostic summary
+   - `fix_common_issues` - Automated repair attempts (optional)
+4. You'll see real-time tool execution and get a detailed WiFi analysis with recommendations
+
 ## Architecture
 
 ### Core Components
